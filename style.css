@@ -588,6 +588,7 @@ button:focus {
 .mu-schedule-menu {
 	text-align: center;
 	border: none;
+	margin-bottom: 5px;
 }
 
 
