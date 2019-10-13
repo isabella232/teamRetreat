@@ -1,6 +1,6 @@
 
 /*
-Template Name: Eventoz	
+Template Name: Eventoz
 Author: MarkUps
 Author URI: http://www.markups.io/
 Version: 1.0
@@ -10,8 +10,8 @@ Version: 1.0
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
+#HEADER
+#MENU
 #ABOUT US
 #VIDEO
 #SCHEDULE
@@ -55,9 +55,9 @@ ul li {
 	line-height: 1.59;
 }
 
-a { 
+a {
 	text-decoration: none;
-	color: #2f2f2f;  
+	color: #2f2f2f;
 }
 
 a:hover,
@@ -75,6 +75,7 @@ h6 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	margin-top: 0;
+	line-height: 1.2;
 }
 
 
@@ -82,25 +83,24 @@ h1 {
 	font-size: 38px;
 }
 
-h2 {  
-	font-size: 32px; 
-	line-height: 1.13; 
+h2 {
+	font-size: 32px;
 }
 
-h3 {  
-	font-size: 26px;  
+h3 {
+	font-size: 26px;
 }
 
-h4 {  
-	font-size: 22px;  
+h4 {
+	font-size: 22px;
 }
 
-h5 {  
-	font-size: 20px;  
+h5 {
+	font-size: 20px;
 }
 
-h6 {  
-	font-size: 18px;  
+h6 {
+	font-size: 18px;
 }
 
 img {
@@ -155,7 +155,7 @@ blockquote {
 	background-color: #f8f8f8;
 	border-radius: 0 4px 4px 0;
 	padding: 5px 15px;
-	
+
 }
 
 blockquote p {
@@ -297,7 +297,6 @@ button:focus {
 .mu-hero-featured-content h1 {
 	font-size: 45px;
 	color: #fff;
-	font-weight: 300;
 	margin-bottom: 15px;
 }
 
@@ -309,8 +308,8 @@ button:focus {
 }
 
 .mu-event-date-line {
-	background-color: #fff;
-	color: #333;
+	background-color: rgba(255, 255, 255, 0.3);
+  color: #333;
 	padding: 5px 10px;
 	display: inline-block;
 	margin-top: 10px;
@@ -384,8 +383,8 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #fff;
 }
@@ -589,12 +588,17 @@ button:focus {
 	text-align: center;
 	border: none;
 	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 
 .mu-schedule-menu li {
 	float: none;
 	display: inline-block;
+	margin-bottom: 1px;
+	width: 160px;
 }
 
 .mu-schedule-menu li a {
@@ -604,6 +608,7 @@ button:focus {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	margin-bottom: 5px;
+	padding: 5px 10px;
 }
 
 .mu-schedule-menu li a:hover,
@@ -701,7 +706,7 @@ button:focus {
 }
 
 .mu-event-timeline ul li .mu-single-event h3 {
-	margin-bottom: 5px;
+	margin-bottom: 0;
 	font-size: 16px;
 }
 
@@ -1029,7 +1034,7 @@ button:focus {
 
 .mu-register-form .form-control:-moz-placeholder { /* Firefox 18- */
 	color: #fff;
-	font-size: 15px; 
+	font-size: 15px;
 }
 
 .mu-register-form .form-control::-moz-placeholder {  /* Firefox 19+ */
@@ -1037,7 +1042,7 @@ button:focus {
 	font-size: 15px;
 }
 
-.mu-register-form .form-control:-ms-input-placeholder {  
+.mu-register-form .form-control:-ms-input-placeholder {
 	color: #fff;
 	font-size: 15px;
 }
@@ -1223,8 +1228,8 @@ button:focus {
 .mu-contact-form .form-control:focus {
 	background-color: #fff;
     outline: 0;
-    box-shadow: none;    
-} 
+    box-shadow: none;
+}
 
 .mu-contact-form .form-control::-webkit-input-placeholder {
 	color: #888;
@@ -1233,7 +1238,7 @@ button:focus {
 
 .mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
 	color: #888;
-	font-size: 15px; 
+	font-size: 15px;
 }
 
 .mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
@@ -1241,14 +1246,14 @@ button:focus {
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-ms-input-placeholder {  
+.mu-contact-form .form-control:-ms-input-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
 .mu-contact-form .button-default::after,
 .mu-contact-form .button-default > span {
-	padding: 12px 40px;  
+	padding: 12px 40px;
 }
 
 #form-messages {
@@ -1378,10 +1383,10 @@ button:focus {
 		right: -25px;
 	}
 
-		
+
 }
 
-@media (max-width: 991px) {	
+@media (max-width: 991px) {
 
 	.mu-primary-btn {
 		font-size: 14px;
@@ -1482,7 +1487,7 @@ button:focus {
 		height: 40px;
 	}
 
-	.mu-speakers-slider .slick-prev::before, 
+	.mu-speakers-slider .slick-prev::before,
 	.mu-speakers-slider .slick-next::before {
 		font-size: 18px;
 	}
@@ -1500,7 +1505,7 @@ button:focus {
 	}
 
 
-		
+
 }
 
 @media (max-width: 767px) {
@@ -1509,7 +1514,7 @@ button:focus {
 		width: 150px;
 	}
 
-	
+
 	.mu-navbar .navbar-toggle .icon-bar {
 		background-color: #fff;
 	}
@@ -1525,13 +1530,13 @@ button:focus {
 		width: 40px;
 	}
 
-		
-		
+
+
 }
 
 
 @media (max-width: 640px){
-	
+
 	.mu-event-counter-block {
 		height: 100px;
 		width: 100px;
@@ -1564,7 +1569,7 @@ button:focus {
 	.mu-contact-content {
 		padding: 0 10%;
 	}
-				
+
 
 }
 
@@ -1603,7 +1608,7 @@ button:focus {
 	.mu-event-counter-area {
 		margin-top: 20px;
 	}
-	
+
 	.mu-event-counter-block span {
 		font-size: 18px;
 		padding-top: 16px;
@@ -1616,7 +1621,7 @@ button:focus {
 		font-size: 12px;
 		margin: 0 5px;
 	}
-	
+
 	.mu-video-close-btn {
 		top: 2%;
 		right: 5%;
@@ -1657,10 +1662,6 @@ button:focus {
 	.mu-schedule-content {
 		margin-top: 30px;
 	}
-	
-	.mu-schedule-menu li {
-		margin-bottom: 15px;
-	}
 
 	.mu-schedule-menu li a {
 		font-size: 15px;
@@ -1694,8 +1695,8 @@ button:focus {
 	.mu-faq-content .panel-title {
 		font-size: 14px;
 	}
-					
-	
+
+
 }
 
 
@@ -1741,8 +1742,8 @@ button:focus {
 		font-size: 25px;
 	}
 
-	.mu-event-timeline ul li .mu-single-event, 
-	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event, 
+	.mu-event-timeline ul li .mu-single-event,
+	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event,
 	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
 		left: 30px;
 		width: 280px;
@@ -1757,8 +1758,8 @@ button:focus {
 		padding: 30% 5%;
 	}
 
-	.mu-event-timeline ul li .mu-single-event, 
-	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event, 
+	.mu-event-timeline ul li .mu-single-event,
+	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event,
 	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
 		left: 30px;
 		width: 250px;
@@ -1767,8 +1768,7 @@ button:focus {
 	h2 {
 		font-size: 22px;
 	}
-	
-	
-	
-}
 
+
+
+}
