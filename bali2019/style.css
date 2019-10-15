@@ -1139,6 +1139,7 @@ button:focus {
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	text-align: left;
+	margin-left: 15px
 }
 
 
@@ -1157,6 +1158,19 @@ button:focus {
 
 .mu-faq-content .panel-title a>span {
 	margin-right: 5px;
+}
+
+.mu-faq-content .panel-list {
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.mu-faq-content .panel-list li {
+	font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: #1c1b1b;
 }
 
 
